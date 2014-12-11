@@ -1,4 +1,6 @@
 <?php
+	$_SERVER['DOCUMENT_ROOT'] = '/root/Dropbox/html';
+
 	include_once ($_SERVER['DOCUMENT_ROOT']."/resources/config.php");
 
 	function getPrice($session, $type){
