@@ -20,16 +20,11 @@
 
     <body class="theme-fire">
 
+        <h1 class="header">MKS</h1>
+    
         <!-- Main content -->
         <div class="content">
-            <div class="container">
-                <!-- Header -->
-                <div class="row">
-                    <h1 class="header col-sm-8 col-sm-offset-2">MKS</h1>
-                </div>
-                <!-- /Header -->
 
-            </div>
             <div id="data">
                 <!-- Countdown -->
                 <div class="countdown" id="countdown">
