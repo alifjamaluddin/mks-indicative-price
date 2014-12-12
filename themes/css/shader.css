@@ -107,7 +107,14 @@ a:focus {
     margin-bottom: 30px;
     font-size: 80px;
     line-height: 1.2;
-    font-weight: 100;
+    font-weight: 200;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.header:hover {
+    color: black ;
+    background-color: #fff ;
 }
 
 .description {
@@ -508,7 +515,7 @@ a:focus {
 ----------------------------------------------------------*/
 
 .theme-fire {
-    background-color: #273E50;
+    background-color: #384651;
     /*background-image: url("../img/bg3.jpg");*/
 }
 
