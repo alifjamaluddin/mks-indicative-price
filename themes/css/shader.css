@@ -508,8 +508,8 @@ a:focus {
 ----------------------------------------------------------*/
 
 .theme-fire {
-    background-color: #AAAAAA;
-    background-image: url("../img/bg3.jpg");
+    background-color: #273E50;
+    /*background-image: url("../img/bg3.jpg");*/
 }
 
 .theme-fire .subscription-form-email:focus {
