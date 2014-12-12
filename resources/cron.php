@@ -1,8 +1,8 @@
 <?php
 
-include_once('./html_dom.php');
+include_once('html_dom.php');
 
-include_once ('./func.php');
+include_once ('func.php');
 
 //Server Details
 $dbUsername = "root";
