@@ -9,7 +9,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
         <!-- Custom fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,100" rel="stylesheet">
+        <link href="./themes/css/Roboto.css" rel="stylesheet">
 
         <!-- Bootstrap stylesheets -->
         <link href="./themes/css/bootstrap.css" rel="stylesheet">
@@ -54,12 +54,6 @@
         <!-- /Main content -->
         <!-- Scripts -->
         <script src="./themes/js/jquery-1.11.1.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                setInterval(function() {
-                    $('#data').load( "data.php" );
-                }, 60000);
-            });
-        </script>
+        <script src="./themes/js/mks.js"></script>
     </body>
 </html>
