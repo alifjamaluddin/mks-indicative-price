@@ -116,7 +116,7 @@ a:focus {
 
 .header:hover {
     color: black ;
-    background-color: #fff ;
+    background-color: #475160 ;
 }
 
 .description {
@@ -532,7 +532,8 @@ a:focus {
 ----------------------------------------------------------*/
 
 .theme-fire {
-    background-color: #384651;
+    /*background-color: #384651;*/
+    background-color: #475160;
     /*background-image: url("../img/bg3.jpg");*/
 }
 
