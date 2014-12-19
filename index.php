@@ -24,7 +24,6 @@
     
         <!-- Main content -->
         <div class="content">
-
             <div id="data">
                 <!-- Countdown -->
                 <div class="countdown" id="countdown">
@@ -52,6 +51,11 @@
             </div>
         </div>
         <!-- /Main content -->
+    <!-- Footer content -->
+    <footer>
+    	<p>coded by <a href="https://www.bricklabs.my">BRICKLabs</a></p>
+    </footer>
+   	<!-- /Footer content -->
         <!-- Scripts -->
         <script src="./themes/js/jquery-1.11.1.min.js"></script>
         <script src="./themes/js/mks.js"></script>

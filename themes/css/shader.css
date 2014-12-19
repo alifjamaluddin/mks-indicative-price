@@ -558,3 +558,7 @@ a:focus {
 .theme-fire .social-links > a:focus {
     background: #d44032;
 }
+
+footer a:hover, a:link, a:visited{
+    text-decoration: none;
+}
