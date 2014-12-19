@@ -2,6 +2,7 @@
 	$_SERVER['DOCUMENT_ROOT'] = '/root/Dropbox/html';
 
 	include_once ($_SERVER['DOCUMENT_ROOT']."/resources/config.php");
+	require ($_SERVER['DOCUMENT_ROOT']."/resources/git.php");
 
 	function getPrice($session, $type){
 		global $conn;
@@ -81,4 +82,5 @@
 	function formatDatetime($data){
 		return preg_replace("/CET/", "", $data);
 	}
+
 ?>

@@ -561,4 +561,5 @@ a:focus {
 
 footer a:hover, a:link, a:visited{
     text-decoration: none;
+    padding-top: 100%;
 }

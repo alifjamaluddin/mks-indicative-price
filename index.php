@@ -52,9 +52,18 @@
         </div>
         <!-- /Main content -->
     <!-- Footer content -->
-    <footer>
-    	<p>coded by <a href="https://www.bricklabs.my">BRICKLabs</a></p>
-    </footer>
+<div class="footer">
+  <div class="container">
+  	<div class="row">
+  		<div class="col-md-4">
+  			<p class="text-muted small"><?php echo $git->output('short'); ?></p>
+  		</div>
+  		<div class="col-md-8">
+  			<p class="text-muted small text-right">&copy 2014. coded by <a href="https://www.bricklabs.my">BRICKLabs</a></p>
+  		</div>
+  	</div>
+  </div>
+</div>
    	<!-- /Footer content -->
         <!-- Scripts -->
         <script src="./themes/js/jquery-1.11.1.min.js"></script>
