@@ -1,5 +1,5 @@
 <?php
-	//$_SERVER['DOCUMENT_ROOT'] = '/root/Dropbox/html';
+	$_SERVER['DOCUMENT_ROOT'] = '/root/Dropbox/html';
 
 	include_once ($_SERVER['DOCUMENT_ROOT']."/resources/config.php");
 	require ($_SERVER['DOCUMENT_ROOT']."/resources/git.php");
