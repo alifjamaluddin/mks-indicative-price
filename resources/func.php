@@ -1,6 +1,8 @@
 <?php
-	//$_SERVER['DOCUMENT_ROOT'] = '/root/Dropbox/html';
-
+	if (php_sapi_name() === 'cli') {
+		$_SERVER['DOCUMENT_ROOT'] = '/root/Dropbox/www/mks.my';
+	}
+	
 	include_once ($_SERVER['DOCUMENT_ROOT']."/resources/config.php");
 	require ($_SERVER['DOCUMENT_ROOT']."/resources/git.php");
 
